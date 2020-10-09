@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class PassWordV
+    {
+        public static void main(String args[])
+        {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter your email address");
+            String email=sc.next();
+            email.toLowerCase();
+            if((email).endsWith(".com") == false)
+            {
+                System.out.println("plz enter a valid email address");
+            }
+            else
+            {
+                System.out.println("Enter a unique name you would use for yourself");
+                String usern=sc.next();
+                System.out.println("Enter a password");
+                String passw=sc.next();
+                System.out.println("Confirm your password please");
+                String confpassw=sc.next();
+                if(passw.equals(confpassw) == false)
+                {
+                    System.out.println("the passwords are not the same");
+                }
+                else 
+                {
+                    System.out.println("Welcome to YACHAT @"+usern+"!");
+                } 
+            }
+        }
+    }
