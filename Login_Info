@@ -25,7 +25,7 @@ public class PassWordV
                 }
                 else 
                 {
-                    System.out.println("Welcome to YACHAT @"+usern+"!");
+                    System.out.println("Welcome to Musikit @"+usern+"!");
                 } 
             }
         }
